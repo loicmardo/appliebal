@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNomUtilisateur"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_ghost"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="    adresse mail : "
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <ProgressBar
+        android:id="@+id/Probar"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+
+    <Button
+        android:id="@+id/btnSeConnecter"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:background="@drawable/arrondir"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etMot2passe"
+        app:layout_constraintStart_toStartOf="@+id/etMot2passe"
+        app:layout_constraintTop_toBottomOf="@+id/etMot2passe"
+        app:layout_constraintVertical_bias="0.428"
+        tools:text="SE CONNECTER" />
+
+    <TextView
+        android:id="@+id/tvSinscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/premi_re_connexion_s_inscrire"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSeConnecter"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/btnSeConnecter"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeConnecter"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <EditText
+        android:id="@+id/etMot2passe"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_ghost"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="    Mot de passe :"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etNomUtilisateur"
+        app:layout_constraintStart_toStartOf="@+id/etNomUtilisateur"
+        app:layout_constraintTop_toBottomOf="@+id/etNomUtilisateur"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text=" CONNEXION"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etNomUtilisateur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

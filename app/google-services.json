@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51928258216",
+    "firebase_url": "https://ebal-bad85-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ebal-bad85",
+    "storage_bucket": "ebal-bad85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51928258216:android:8c14e8f8e67cbf0702149d",
+        "android_client_info": {
+          "package_name": "com.example.e_bal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51928258216-k48plgtdl94blppnmmfass5ch7makjdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCgVS6tfpWwTT2drdveNPEnzd7xSFMnCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51928258216-k48plgtdl94blppnmmfass5ch7makjdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

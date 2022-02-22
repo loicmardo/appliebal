@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E-BAL</string>
+    <string name="welcome_to_e_bal">E-BAL</string>
+    <string name="welcome_to_e_bal2"></string>
+    <string name="button">Button</string>
+    <string name="depot_recu"> <u>DEPOT RECU</u></string>
+    <string name="todo">TODO</string>
+    <string name="deja_un_compte_se_connecter">DEJA UN COMPTE? SE CONNECTER</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="mot_de_passe">Mot de passe :</string>
+    <string name="notificaton">NOTIFICATON</string>
+    <string name="text">---</string>
+    <string name="reveil">Reveil</string>
+    <string name="restart">REDEMARER POUR CONFIGURATION WIFI</string>
+    <string name="s_inscrire">S\'INSCRIRE</string>
+    <string name="se_connecter">SE CONNECTER</string>
+    <string name="premi_re_connexion_s_inscrire">Première Connexion ? S\'INSCRIRE</string>
+    <string name="pr_nom_s">Prénom(s):</string>
+    <string name="nom">Nom:</string>
+    <string name="mon_compte">MON COMPTE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="deepsleep">DEEPSLEEP</string>
+    <string name="colis_recus">COLIS RECUS</string>
+
+    <string name="textview">TextView</string>
+
+</resources>
